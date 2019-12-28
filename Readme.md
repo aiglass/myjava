@@ -1,5 +1,6 @@
 #   java
-java基础入门[link](bases\) |java面向对象[link](bases\oop.md)| java高级语言特性[link](bases\super.md)|[java9api](https://docs.oracle.com/javase/9/docs/api/overview-summary.html)
+java基础入门[link](bases\) |java面向对象[link](bases\oop.md)| java高级语言特性[link](bases\super.md)|[java9api](https://docs.oracle.com/javase/9/docs/api/overview-summary.html)|
+[Git Community Book 中文版](http://gitbook.liuhui998.com/)
 ### java基础入门：
 #### 认识java
 - [Java 编程起步](bases\start.md)

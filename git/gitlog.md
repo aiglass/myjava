@@ -22,3 +22,11 @@ git log --pretty=format:'%h : %s' --topo-order --graph
 git log --reverse
 
 ```
+
+## 常用命令
+* git log [分支名] 查看某分支的提交历史，不写分支名查看当前所在分支
+* git log --oneline 一行显示提交历史
+* git log -n 其中 n 是数字，查看最近 n 个提交
+* git log --author [贡献者名字] 查看指定贡献者的提交记录
+* git log --graph 图示法显示提交历史
+* git reflog 命令，它会记录本地仓库所有分支的每一次版本变化

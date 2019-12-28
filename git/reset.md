@@ -46,3 +46,12 @@ git fsck 运行一些仓库的一致性检查，如果有任何问题就会报�
 git fsck
 ```
 悬空对象（dangling objects）并不是问题，最坏的情况它们只是多占了一些磁盘空间，但有时候它们是找回丢失的工作的最后一丝希望.
+
+## 常用命令
+
+```
+//--soft 表示软退回，--hard 硬退回
+ git reset --soft HEAD^ 
+ git reset --hard [版本号] 
+ git reset --hard{2}
+```

@@ -33,3 +33,24 @@ git tag -s stable-1 commit的前八位
 //如果没有在配置文件中配 GPG key，你可以用 -u 参数直接指定。
 git tag -u <gpg-key-id> stable-1 1b2e1d63ff
 ```
+## 签出版本
+其实签出版本就是指定某个提交版本创建一个新的分支
+```
+//切换到之前的某个提交版本，
+git checkout [标签名] 
+//将此提交版本固定到一个新分支上并切换到此分支
+git checkout -b [新的分支名] 
+```
+## releases
+GitHub 的 releases 是 2013 年发布的新功能，旨在协助软件开发者分发新版本给用户
+release 基于 tag，为 tag 添加更丰富的信息，一般是编译好的文件。
+## 常用命令
+```
+git show [标签名] 
+git push origin [标签名] 推送标签到远程仓库
+git push origin :refs/tags/[标签名] 删除远程仓库的标签
+```
+当我们执行 git add [标签名] 创建本地标签后，在仓库主目录的 .git/refs/tags 目录下就会生成一个标签文件：
+```
+git tad -d V1.0
+```
